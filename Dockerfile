@@ -10,4 +10,6 @@ RUN npm install rimraf
 
 COPY . .
 
+EXPOSE 3000
+
 RUN npm run build
